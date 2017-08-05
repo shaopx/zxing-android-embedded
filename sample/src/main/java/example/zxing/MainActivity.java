@@ -84,6 +84,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+    public void qq(View view) {
+        Intent intent = new Intent(this, QQStyleCaptureActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
