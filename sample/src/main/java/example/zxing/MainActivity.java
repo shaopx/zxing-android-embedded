@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.hardware.Camera;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,7 +15,8 @@ import android.widget.Toast;
 import com.google.zxing.client.android.Intents;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
-import com.journeyapps.barcodescanner.CameraPreview;
+
+import example.zxing.qq.QQStyleCaptureActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -86,8 +86,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void qq(View view) {
-        Intent intent = new Intent(this, QQStyleCaptureActivity.class);
-        startActivity(intent);
+        new IntentIntegrator(this).setOrientationLocked(false).setCaptureActivity(QQStyleCaptureActivity.class).initiateScan();
+//        Intent intent = new Intent(this, QQStyleCaptureActivity.class);
+//        startActivity(intent);
     }
 
     @Override

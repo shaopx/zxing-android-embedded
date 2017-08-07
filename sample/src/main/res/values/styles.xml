@@ -12,4 +12,13 @@
         <item name="colorPrimaryDark">#ffb341</item>
         <item name="colorAccent">#ffb341</item>
     </style>
+
+    <!--<declare-styleable name="zxing_custom">-->
+        <!--<attr name="zxing_framing_rect_width" format="dimension" />-->
+        <!--<attr name="zxing_framing_rect_height" format="dimension" />-->
+        <!--<attr name="zxing_framing_rect_layout_centerVertical" format="boolean" />-->
+        <!--<attr name="zxing_framing_rect_marginTop" format="dimension" />-->
+        <!--<attr name="zxing_framing_rect_layout_marginLeft" format="dimension" />-->
+        <!--<attr name="zxing_framing_rect_layout_marginRight" format="dimension" />-->
+    <!--</declare-styleable>-->
 </resources>
