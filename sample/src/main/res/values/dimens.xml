@@ -10,5 +10,6 @@
     <dimen name="stroke_height">33dp</dimen>
     <dimen name="scan_distance">250dp</dimen>
     <dimen name="scan_window_height">250dp</dimen>
+    <dimen name="scan_window_margintop">80dp</dimen>
 
 </resources>

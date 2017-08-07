@@ -10,13 +10,13 @@
         zxing_custom:zxing_framing_rect_layout_centerVertical="false"
         zxing_custom:zxing_framing_rect_layout_marginLeft="@dimen/scanner_window_marginleft"
         zxing_custom:zxing_framing_rect_layout_marginRight="@dimen/scanner_window_marginright"
-        zxing_custom:zxing_framing_rect_marginTop="80dp"
-        zxing_custom:zxing_framing_rect_width="250dp" />
+        zxing_custom:zxing_framing_rect_marginTop="@dimen/scan_window_margintop"
+        zxing_custom:zxing_framing_rect_width="@dimen/scan_window_height" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_marginTop="80dp">
+        android:layout_height="@dimen/scan_window_height"
+        android:layout_marginTop="@dimen/scan_window_margintop">
 
         <ImageView
             android:id="@+id/scan_light_iv"
